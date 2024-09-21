@@ -1,59 +1,15 @@
 body {
+    background-color: #FFD700; /* Gold background */
+    color: #333;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f1e3c8; /* Light cream background for contrast */
-    color: #333; /* Text color */
 }
 
-header {
-    background-color: #d4af37; /* Gold color */
-    padding: 20px;
-    text-align: center;
-}
-
-h1 {
-    color: white; /* White text for header */
-}
-
-nav a {
-    color: white; /* Link color */
-    margin: 0 15px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
-
-main {
-    padding: 20px;
-    text-align: center;
-}
-
-section {
-    margin: 20px 0;
-    padding: 15px;
-    border: 2px solid #d4af37; /* Gold border */
-    border-radius: 10px;
-    background-color: #fff8e1; /* Light gold background for sections */
-}
-
-footer {
-    background-color: #d4af37; /* Gold color */
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Adding some gold color elements */
 h2 {
-    color: #d4af37; /* Gold color for section headers */
+    color: #DAA520; /* Darker gold for headings */
 }
 
-p {
-    line-height: 1.6; /* Better readability */
+.project {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #DAA520; /* Gold border */
 }
